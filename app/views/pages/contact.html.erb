@@ -1,1 +1,7 @@
-<h1>Get in contact with me!</h1>
+<h1>Get in contact with us!</h1>
+
+<ul>
+  <% @members.each do |member| %>
+    <li><%=member.capitalize %></li>
+  <% end %>
+</ul>

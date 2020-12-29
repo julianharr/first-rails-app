@@ -11,9 +11,13 @@
   </head>
 
   <body>
-    <!-- Anything here is applied to ALL pages of your app -->
+    <!-- Anything here is applied to ALL pages of app -->
     <div class="nav" style="background: lightgray; padding: 16px">
-      Nav
+      <ul>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Learn about us", about_path %></li>
+        <li><%= link_to "Contact", contact_path %></li>
+      </ul>
     </div>
     <%= yield %>
   </body>

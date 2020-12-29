@@ -1,1 +1,8 @@
 <h1>Welcome to our website</h1>
+
+<p>Today is <strong><%= @date %></strong></p>
+
+<form action="/contact" method="get">
+  <input type="text" name="member" placeholder="Who are you looking for?" style="padding: 16px; border: 0.5px solid grey;border-radius: 8px; width: 150px">
+  <input type="submit">
+</form>
